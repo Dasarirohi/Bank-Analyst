@@ -1,5 +1,9 @@
-Loan Analysis: The dashboard includes a line graph showing the sum of loan amounts by year, indicating trends in lending over time.
-Revolving Balance: A pie chart displays the sum of revolving balances by sub-grade, categorizing the data into different risk levels.
-Payment Tracking: A bar graph shows the sum of the last payment amount by year, which helps in monitoring the payment flow.
-Geographical Data: There’s a map indicating the loan status distribution across the U.S., differentiating between ‘Charged Off’ and ‘Current’ loans.
-Verification Status: Another pie chart shows the total payment sums divided between verified and not verified statuses, which could be crucial for risk assessment.
+Verified Status: Loans with verified information typically carry lower risk compared to those with unverified information. When borrowers provide verified income, employment, and other relevant details, it adds a layer of credibility to their application. Lenders can have more confidence in the borrower's ability to repay the loan as promised. Thus, loans with verified status might be associated with lower interest rates or higher approval rates.
+
+Not Verified Status: Loans where the information provided by the borrower has not been verified carry higher risk. Without verifying key details such as income, employment, or identity, lenders have less assurance about the borrower's ability to repay the loan. This lack of verification may lead to higher default rates and financial losses for the lender. Consequently, loans with unverified status might be subjected to stricter terms, higher interest rates, or even rejection in some cases.
+
+Risk Assessment: Analyzing the distribution of payment sums between verified and not verified statuses can provide insights into the overall risk profile of the loan portfolio. A higher proportion of payments coming from verified loans indicates a healthier and less risky portfolio. Conversely, a significant portion of payments from unverified loans may raise concerns about the reliability of the borrower information and the potential for defaults.
+
+Fraud Detection: Monitoring the payment behavior of verified versus unverified loans can also help in detecting fraudulent activities. Sudden spikes or anomalies in payment patterns from unverified loans might signal potential fraudulent behavior, prompting further investigation by the lender.
+
+Regulatory Compliance: Many financial institutions are required by law to verify certain borrower information, especially for loans involving large sums of money or specific types of transactions. Monitoring the verification status helps ensure compliance with regulatory requirements and mitigates legal risks associated with inadequate due diligence.
